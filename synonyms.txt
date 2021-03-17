@@ -1,0 +1,2 @@
+town=>city
+stadt=>city

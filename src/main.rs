@@ -15,6 +15,7 @@ async fn main() -> std::io::Result<()> {
             .wrap(Cors::new().supports_credentials().finish())
             .route("/api", web::get().to(endpoints::default_endpoint::response))
             .route("/api/fetch", web::get().to(endpoints::fetch_endpoint::response))
+            .route("/api/parse_synonym", web::get().to(endpoints::parse_synomym_endpoint::response))
     })
         .bind("0.0.0.0:".to_owned() + &env_handler::load_param("APPLICATION_PORT"))?
         .run()
