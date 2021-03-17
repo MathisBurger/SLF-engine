@@ -16,6 +16,7 @@ async fn main() -> std::io::Result<()> {
             .route("/api", web::get().to(endpoints::default_endpoint::response))
             .route("/api/fetch", web::get().to(endpoints::fetch_endpoint::response))
             .route("/api/parse_synonym", web::get().to(endpoints::parse_synomym_endpoint::response))
+            .route("/api/get_all_categories", web::get().to(endpoints::get_all_categories_endpoint::response))
     })
         .bind("0.0.0.0:".to_owned() + &env_handler::load_param("APPLICATION_PORT"))?
         .run()
