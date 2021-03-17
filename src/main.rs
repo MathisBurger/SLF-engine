@@ -4,6 +4,7 @@ use dotenv::dotenv;
 
 mod endpoints;
 mod env_handler;
+mod structs;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
@@ -13,6 +14,7 @@ async fn main() -> std::io::Result<()> {
         App::new()
             .wrap(Cors::new().supports_credentials().finish())
             .route("/api", web::get().to(endpoints::default_endpoint::response))
+            .route("/api/fetch", web::get().to(endpoints::fetch_endpoint::response))
     })
         .bind("0.0.0.0:".to_owned() + &env_handler::load_param("APPLICATION_PORT"))?
         .run()
