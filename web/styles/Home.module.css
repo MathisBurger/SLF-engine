@@ -24,3 +24,35 @@
 .searchbar:focus {
   box-shadow: 12px 12px 12px rgba(0,0,0,0.2);
 }
+
+.table {
+  margin-top: 3em;
+  margin-left: 20em;
+  margin-right: 20em;
+}
+
+.table th {
+  background-color: #d746d7;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+}
+
+.table td {
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 1px solid rgba(79, 78, 78, 0.2);
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.table td>a {
+  color: blue;
+}
+
+.table td:hover {
+  box-shadow: 8px 8px 8px rgba(0,0,0,0.2);
+}
+
+
