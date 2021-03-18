@@ -23,6 +23,9 @@ export default function Home() {
 
 async function onSubmit(event, text) {
     if (event.key === 'Enter') {
-        console.log(await search(text));
+        let data = await search(text);
+        if (!data.status) {
+            window.alert(data.message);
+        }
     }
 }

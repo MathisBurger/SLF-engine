@@ -6,6 +6,8 @@ export async function search(text) {
         return await getData(split[0], split[1]);
     } else if (split.length > 2) {
         return await getData(split[0], split[(split.length - 1)]);
+    } else {
+        return {status: false, message: "Not enough search words"};
     }
 }
 
