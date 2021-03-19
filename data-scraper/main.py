@@ -1,55 +1,38 @@
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
-import requests
+import time
+import wikipedia
 import json
-import os
 
-url = input("url:\n")
 
-page = urlopen(url=url)
+starttime = time.time()
 
-html_bytes = page.read()
+files = ["city", "country", "river"]
 
-html = html_bytes.decode("utf-8")
-
-soup = BeautifulSoup(html)
-
-content = soup.find_all(class_="post-content")[0]
-
-headings = content.find_all('h3')
-
-names = content.find_all('ul')
-
-for i in range(len(headings)):
-    data_array = []
-    heading = str(headings[i]).split(" ")[0].replace("<h3>", "")
-    nms = names[i].find_all('li')
-    for name in nms:
-        name = str(name).replace("<li>", "").replace("</li>", "")
-        if "(" in str(name):
-            name = "".join(str(x) for x in str(name).split(" ")[:1])
-        name_url = requests.get(f"https://de.wikipedia.org/w/api.php?action=opensearch&format=json&formatversion=2"
-                                f"&search={name}&namespace=0&limit=10".format(name=name))
+for file in files:
+    with open(f"./lists/{file}.txt", "r") as f:
+        names = f.readlines()
+    data = []
+    for name in names:
+        link = wikipedia.get_wikipedia_link(name)
+        print(f"name: {name} link: {link}")
+        data.append({"name": str(name).replace("\n", ""), "description": file, "source": link})
+    with open(f"./data/init_template.json", "r") as read:
+        all_data = json.load(read)
+    for el in data:
         try:
-            source = name_url.json()[3][0]
+            lst = list(all_data[str(el["name"])[0].lower()])
         except:
-            source = "Not found"
-        data_array.append({"name": name, "description": name, "source": source})
+            print(str(el["name"])[0].lower(), el)
+            exit(1)
+        lst.append(el)
+        all_data[str(el["name"])[0].lower()] = lst
+    with open(f"./data/{file}.json", "w+") as write:
+        write.write(json.dumps(all_data, indent=4))
 
-    if not os.path.exists(f"./{heading}.json"):
-        f = open(f"./{heading}.json", "w+")
-        f.write("{}")
-        f.close()
 
-    with open(f"./{heading}.json", "r", encoding="utf-8") as file:
-        data = json.load(file)
 
-    try:
-        values = data[str(str(headings[i]).split(" ")[-1].replace("</h3>", "")).lower()]
 
-    except:
-        data[str(str(headings[i]).split(" ")[-1].replace("</h3>", "")).lower()] = data_array
+endtime = time.time()
 
-    with open(f"./{heading}.json", "w+", encoding="utf-8") as file_write:
-        file_write.write(json.dumps(data, indent=4))
+diff = endtime - starttime
 
+print(f"Fetching data took {diff}s")

@@ -46,7 +46,32 @@ fn path_exists(path: &String) -> bool {
 
 fn get_vec_by_char(model: CategoryContent, category: &str) -> Vec<LetterEntry> {
     return match category {
-        "a" => { model.a }
+        "a" => { model.a },
+        "b" => { model.b },
+        "c" => { model.c },
+        "d" => { model.d },
+        "e" => { model.e },
+        "f" => { model.f },
+        "g" => { model.g },
+        "h" => { model.h },
+        "i" => { model.i },
+        "j" => { model.j },
+        "k" => { model.k },
+        "l" => { model.l },
+        "m" => { model.m },
+        "n" => { model.n },
+        "o" => { model.o },
+        "p" => { model.p },
+        "q" => { model.q },
+        "r" => { model.r },
+        "s" => { model.s },
+        "t" => { model.t },
+        "u" => { model.u },
+        "v" => { model.v },
+        "w" => { model.w },
+        "x" => { model.x },
+        "y" => { model.y },
+        "z" => { model.z },
         _ => { vec![] }
     };
 }

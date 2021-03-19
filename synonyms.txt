@@ -1,4 +1,5 @@
 town=>city
 stadt=>city
 village=>city
-fluss=>city
+fluss=>river
+land=>country

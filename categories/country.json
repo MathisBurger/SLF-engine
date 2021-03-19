@@ -1,0 +1,521 @@
+{
+    "a": [
+        {
+            "name": "Albanien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Albanien"
+        },
+        {
+            "name": "Armenien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Armenien"
+        },
+        {
+            "name": "Andorra",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Andorra"
+        },
+        {
+            "name": "Algerien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Algerien"
+        }
+    ],
+    "b": [
+        {
+            "name": "Belgien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Belgien"
+        },
+        {
+            "name": "Brasilien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Brasilien"
+        },
+        {
+            "name": "Bolivien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Bolivien"
+        },
+        {
+            "name": "Bermudas",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Bermuda"
+        },
+        {
+            "name": "Bahrain",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Bahrain"
+        }
+    ],
+    "c": [
+        {
+            "name": "China",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/China"
+        },
+        {
+            "name": "Costa Rica",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Costa_Rica"
+        },
+        {
+            "name": "Chile",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Chile"
+        },
+        {
+            "name": "Cookinseln",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Cookinseln"
+        }
+    ],
+    "d": [
+        {
+            "name": "Deutschland",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Deutschland"
+        },
+        {
+            "name": "D\u00c3\u00a4nemark",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/D%C3%A4nemark"
+        },
+        {
+            "name": "Dominikanische Republik",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Dominikanische_Republik"
+        },
+        {
+            "name": "Dschibuti",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Dschibuti"
+        }
+    ],
+    "e": [
+        {
+            "name": "Estland",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Estland"
+        },
+        {
+            "name": "Ecuador",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Ecuador"
+        },
+        {
+            "name": "El Salvador",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/El_Salvador"
+        },
+        {
+            "name": "Eritrea",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Eritrea"
+        }
+    ],
+    "f": [
+        {
+            "name": "Finnland",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Finnland"
+        },
+        {
+            "name": "Frankreich",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Frankreich"
+        },
+        {
+            "name": "Fidschi",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Fidschi"
+        }
+    ],
+    "g": [
+        {
+            "name": "Georgien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Georgien"
+        },
+        {
+            "name": "Ghana",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Ghana"
+        },
+        {
+            "name": "Griechenland",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Griechenland"
+        },
+        {
+            "name": "Guinea",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Guinea"
+        },
+        {
+            "name": "Gambia",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Gambia"
+        }
+    ],
+    "h": [
+        {
+            "name": "Haiti",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Haiti"
+        },
+        {
+            "name": "Honduras",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Honduras"
+        }
+    ],
+    "i": [
+        {
+            "name": "Indien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Indien"
+        },
+        {
+            "name": "Indonesien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Indonesien"
+        },
+        {
+            "name": "Irak",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Irak"
+        },
+        {
+            "name": "Iran",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Iran"
+        },
+        {
+            "name": "Island",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Island"
+        },
+        {
+            "name": "Israel",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Israel"
+        }
+    ],
+    "j": [
+        {
+            "name": "Jamaika",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Jamaika"
+        },
+        {
+            "name": "Jemen",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Jemen"
+        },
+        {
+            "name": "Jordanien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Jordanien"
+        },
+        {
+            "name": "Japan",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Japan"
+        }
+    ],
+    "k": [
+        {
+            "name": "Kambodscha",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Kambodscha"
+        },
+        {
+            "name": "Katar",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Katar"
+        },
+        {
+            "name": "Kolumbien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Kolumbien"
+        },
+        {
+            "name": "Kroatien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Kroatien"
+        },
+        {
+            "name": "Kuba",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Kuba"
+        },
+        {
+            "name": "Kuwait",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Kuwait"
+        }
+    ],
+    "l": [
+        {
+            "name": "Lettland",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Lettland"
+        },
+        {
+            "name": "Libanon",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Libanon"
+        },
+        {
+            "name": "Liberia",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Liberia"
+        },
+        {
+            "name": "Libyen",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Libyen"
+        },
+        {
+            "name": "Luxemburg",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Luxemburg"
+        }
+    ],
+    "m": [
+        {
+            "name": "Malta",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Malta"
+        },
+        {
+            "name": "Malawi",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Malawi"
+        },
+        {
+            "name": "Monaco",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Monaco"
+        },
+        {
+            "name": "Mali",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Mali"
+        },
+        {
+            "name": "Mexiko",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Mexiko"
+        }
+    ],
+    "n": [
+        {
+            "name": "Norwegen",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Norwegen"
+        },
+        {
+            "name": "Namibia",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Namibia"
+        },
+        {
+            "name": "Nepal",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Nepal"
+        },
+        {
+            "name": "Niederlande",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Niederlande"
+        },
+        {
+            "name": "Niger",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Niger"
+        }
+    ],
+    "o": [
+        {
+            "name": "Oman",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Oman"
+        },
+        {
+            "name": "Oesterreich",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Oesterreich"
+        },
+        {
+            "name": "olen",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Olen"
+        }
+    ],
+    "p": [
+        {
+            "name": "Portugal",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Portugal"
+        },
+        {
+            "name": "Panama",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Panama"
+        },
+        {
+            "name": "Pakistan",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Pakistan"
+        },
+        {
+            "name": "Peru",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Peru"
+        }
+    ],
+    "q": [],
+    "r": [
+        {
+            "name": "Ruanda",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Ruanda"
+        },
+        {
+            "name": "Russland",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Russland"
+        },
+        {
+            "name": "Rum\u00c3\u00a4nien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Rum%C3%A4nien"
+        }
+    ],
+    "s": [
+        {
+            "name": "Spanien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Spanien"
+        },
+        {
+            "name": "Slowakei",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Slowakei"
+        },
+        {
+            "name": "Schweiz",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Schweiz"
+        },
+        {
+            "name": "Senegal",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Senegal"
+        },
+        {
+            "name": "Syrien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Syrien"
+        }
+    ],
+    "t": [
+        {
+            "name": "Thailand",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Thailand"
+        },
+        {
+            "name": "T\u00c3\u00bcrkei",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Tarjei_B%C3%B8"
+        },
+        {
+            "name": "Turkmenistan",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Turkmenistan"
+        },
+        {
+            "name": "Tunesien",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Tunesien"
+        },
+        {
+            "name": "Taiwan",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Taiwan"
+        }
+    ],
+    "u": [
+        {
+            "name": "Uruguay",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Uruguay"
+        },
+        {
+            "name": "Ukraine",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Ukraine"
+        },
+        {
+            "name": "Ungarn",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Ungarn"
+        },
+        {
+            "name": "USA",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/USA"
+        },
+        {
+            "name": "Uganda",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Uganda"
+        }
+    ],
+    "v": [
+        {
+            "name": "Vanuta",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Vanuatu"
+        },
+        {
+            "name": "Venezuela",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Venezuela"
+        },
+        {
+            "name": "Vietnam",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Vietnam"
+        },
+        {
+            "name": "Vereinigte arabische Emirate",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Vereinigte_Arabische_Emirate"
+        }
+    ],
+    "w": [
+        {
+            "name": "Wei\u00c3\u0178russland",
+            "description": "country",
+            "source": "Not found"
+        }
+    ],
+    "x": [],
+    "y": [],
+    "z": [
+        {
+            "name": "Zypern",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Zypern"
+        },
+        {
+            "name": "Zentralafrikanische Republik",
+            "description": "country",
+            "source": "https://de.wikipedia.org/wiki/Zentralafrikanische_Republik"
+        }
+    ]
+}
