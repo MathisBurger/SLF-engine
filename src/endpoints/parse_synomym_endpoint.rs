@@ -13,6 +13,8 @@ pub struct Response {
     category: String
 }
 
+// This endpoint checks if given category is a
+// synonym for existing category
 pub async fn response(info: web::Query<Request>) -> impl Responder {
 
     let map = get_synonym_map();
@@ -26,6 +28,7 @@ pub async fn response(info: web::Query<Request>) -> impl Responder {
     }
 }
 
+// returns a HashMap of all synonyms
 fn get_synonym_map() -> HashMap<String, String> {
     let raw = std::fs::read_to_string("./synonyms.txt").unwrap();
     let spl = raw.split("\n").collect::<Vec<&str>>();

@@ -7,6 +7,7 @@ struct Response {
     version: String,
 }
 
+// default response endpoint
 pub async fn response() -> impl Responder {
     web::HttpResponse::Ok()
         .json(Response {

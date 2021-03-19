@@ -18,12 +18,16 @@ struct Response {
     data: Vec<LetterEntry>
 }
 
-
+// Endpoint for fetching category data
 pub async fn response(info: web::Query<Request>) -> impl Responder {
+
     let path = format!("./categories/{}.json", &info.category);
+
     if path_exists(&path) {
+
         let file_content = std::fs::read_to_string(&path).unwrap();
         let json: serde_json::Result<CategoryContent>  = serde_json::from_str(&*file_content);
+
         web::HttpResponse::Ok()
             .json(Response {
                 status: true,
@@ -31,6 +35,7 @@ pub async fn response(info: web::Query<Request>) -> impl Responder {
                 data: get_vec_by_char(json.unwrap(), &*info.letter)
             })
     } else {
+
         web::HttpResponse::Ok()
             .json(Response {
                 status: false,
@@ -40,12 +45,15 @@ pub async fn response(info: web::Query<Request>) -> impl Responder {
     }
 }
 
+// function to check if file exists
 fn path_exists(path: &String) -> bool {
     std::path::Path::new(path).exists()
 }
 
-fn get_vec_by_char(model: CategoryContent, category: &str) -> Vec<LetterEntry> {
-    return match category {
+
+// parses CategoryModel to Vec<LetterEntry> by letter
+fn get_vec_by_char(model: CategoryContent, letter: &str) -> Vec<LetterEntry> {
+    return match letter {
         "a" => { model.a },
         "b" => { model.b },
         "c" => { model.c },

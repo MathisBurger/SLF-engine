@@ -6,6 +6,7 @@ struct Response {
     categories: Vec<String>
 }
 
+// endpoint returns all available categories
 pub async fn response() -> impl Responder {
 
     let paths = std::fs::read_dir("./categories").unwrap();
@@ -16,6 +17,7 @@ pub async fn response() -> impl Responder {
             .split(".").collect::<Vec<&str>>()[0].to_string()
         );
     }
+
     web::HttpResponse::Ok()
         .json(Response {
             categories: resp,
