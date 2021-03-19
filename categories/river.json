@@ -1,0 +1,619 @@
+{
+    "a": [
+        {
+            "name": "Aller",
+            "description": "Aller",
+            "source": "https://de.wikipedia.org/wiki/Aller"
+        },
+        {
+            "name": "Amazonas",
+            "description": "Amazonas",
+            "source": "https://de.wikipedia.org/wiki/Amazonas"
+        },
+        {
+            "name": "Alz",
+            "description": "Alz",
+            "source": "https://de.wikipedia.org/wiki/Alz"
+        },
+        {
+            "name": "\u00c4tran",
+            "description": "\u00c4tran",
+            "source": "https://de.wikipedia.org/wiki/%C3%84tran"
+        }
+    ],
+    "b": [
+        {
+            "name": "Bigge",
+            "description": "Bigge",
+            "source": "https://de.wikipedia.org/wiki/Bigge"
+        },
+        {
+            "name": "Brahmaputra",
+            "description": "Brahmaputra",
+            "source": "https://de.wikipedia.org/wiki/Brahmaputra"
+        },
+        {
+            "name": "Belaja",
+            "description": "Belaja",
+            "source": "https://de.wikipedia.org/wiki/Belaja"
+        },
+        {
+            "name": "Blies",
+            "description": "Blies",
+            "source": "https://de.wikipedia.org/wiki/Blies"
+        }
+    ],
+    "c": [
+        {
+            "name": "Chemnitz",
+            "description": "Chemnitz",
+            "source": "https://de.wikipedia.org/wiki/Chemnitz"
+        },
+        {
+            "name": "Colorado",
+            "description": "Colorado",
+            "source": "https://de.wikipedia.org/wiki/Colorado"
+        },
+        {
+            "name": "Charente",
+            "description": "Charente",
+            "source": "https://de.wikipedia.org/wiki/Charente"
+        },
+        {
+            "name": "Churchill",
+            "description": "Churchill",
+            "source": "https://de.wikipedia.org/wiki/Churchill"
+        }
+    ],
+    "d": [
+        {
+            "name": "Donau",
+            "description": "Donau",
+            "source": "https://de.wikipedia.org/wiki/Donau"
+        },
+        {
+            "name": "Don",
+            "description": "Don",
+            "source": "https://de.wikipedia.org/wiki/Don"
+        },
+        {
+            "name": "Dnister",
+            "description": "Dnister",
+            "source": "https://de.wikipedia.org/wiki/Dnister"
+        },
+        {
+            "name": "Dinkel",
+            "description": "Dinkel",
+            "source": "https://de.wikipedia.org/wiki/Dinkel"
+        }
+    ],
+    "e": [
+        {
+            "name": "Ems",
+            "description": "Ems",
+            "source": "https://de.wikipedia.org/wiki/Ems"
+        },
+        {
+            "name": "Emscher",
+            "description": "Emscher",
+            "source": "https://de.wikipedia.org/wiki/Emscher"
+        },
+        {
+            "name": "Elbe",
+            "description": "Elbe",
+            "source": "https://de.wikipedia.org/wiki/Elbe"
+        },
+        {
+            "name": "Euphrat",
+            "description": "Euphrat",
+            "source": "https://de.wikipedia.org/wiki/Euphrat"
+        },
+        {
+            "name": "Ebro",
+            "description": "Ebro",
+            "source": "https://de.wikipedia.org/wiki/Ebro"
+        }
+    ],
+    "f": [
+        {
+            "name": "Fulda",
+            "description": "Fulda",
+            "source": "https://de.wikipedia.org/wiki/Fulda"
+        },
+        {
+            "name": "Fraser",
+            "description": "Fraser",
+            "source": "https://de.wikipedia.org/wiki/Fraser"
+        },
+        {
+            "name": "Fly",
+            "description": "Fly",
+            "source": "https://de.wikipedia.org/wiki/Fly"
+        }
+    ],
+    "g": [
+        {
+            "name": "Ganges",
+            "description": "Ganges",
+            "source": "https://de.wikipedia.org/wiki/Ganges"
+        },
+        {
+            "name": "Gera",
+            "description": "Gera",
+            "source": "https://de.wikipedia.org/wiki/Gera"
+        },
+        {
+            "name": "Green",
+            "description": "Green",
+            "source": "https://de.wikipedia.org/wiki/Green"
+        },
+        {
+            "name": "Godavari",
+            "description": "Godavari",
+            "source": "https://de.wikipedia.org/wiki/Godavari"
+        },
+        {
+            "name": "Gail",
+            "description": "Gail",
+            "source": "https://de.wikipedia.org/wiki/Gail"
+        }
+    ],
+    "h": [
+        {
+            "name": "Havel",
+            "description": "Havel",
+            "source": "https://de.wikipedia.org/wiki/Havel"
+        },
+        {
+            "name": "Hunte",
+            "description": "Hunte",
+            "source": "https://de.wikipedia.org/wiki/Hunte"
+        },
+        {
+            "name": "Hudson",
+            "description": "Hudson",
+            "source": "https://de.wikipedia.org/wiki/Hudson"
+        }
+    ],
+    "i": [
+        {
+            "name": "Isar",
+            "description": "Isar",
+            "source": "https://de.wikipedia.org/wiki/Isar"
+        },
+        {
+            "name": "Inn",
+            "description": "Inn",
+            "source": "https://de.wikipedia.org/wiki/Inn"
+        },
+        {
+            "name": "Indus",
+            "description": "Indus",
+            "source": "https://de.wikipedia.org/wiki/Indus"
+        },
+        {
+            "name": "Irrawaddy",
+            "description": "Irrawaddy",
+            "source": "https://de.wikipedia.org/wiki/Irrawaddy"
+        }
+    ],
+    "j": [
+        {
+            "name": "Jagst",
+            "description": "Jagst",
+            "source": "https://de.wikipedia.org/wiki/Jagst"
+        },
+        {
+            "name": "Jade",
+            "description": "Jade",
+            "source": "https://de.wikipedia.org/wiki/Jade"
+        },
+        {
+            "name": "Jangtsekiang",
+            "description": "Jangtsekiang",
+            "source": "https://de.wikipedia.org/wiki/Jangtsekiang"
+        },
+        {
+            "name": "Jenissei",
+            "description": "Jenissei",
+            "source": "https://de.wikipedia.org/wiki/Jenissei"
+        }
+    ],
+    "k": [
+        {
+            "name": "Kyll",
+            "description": "Kyll",
+            "source": "https://de.wikipedia.org/wiki/Kyll"
+        },
+        {
+            "name": "Kinzig",
+            "description": "Kinzig",
+            "source": "https://de.wikipedia.org/wiki/Kinzig"
+        },
+        {
+            "name": "Kongo",
+            "description": "Kongo",
+            "source": "https://de.wikipedia.org/wiki/Kongo"
+        },
+        {
+            "name": "Kasai",
+            "description": "Kasai",
+            "source": "https://de.wikipedia.org/wiki/Kasai"
+        },
+        {
+            "name": "Kolyma",
+            "description": "Kolyma",
+            "source": "https://de.wikipedia.org/wiki/Kolyma"
+        }
+    ],
+    "l": [
+        {
+            "name": "Lech",
+            "description": "Lech",
+            "source": "https://de.wikipedia.org/wiki/Lech"
+        },
+        {
+            "name": "Lippe",
+            "description": "Lippe",
+            "source": "https://de.wikipedia.org/wiki/Lippe"
+        },
+        {
+            "name": "Lahn",
+            "description": "Lahn",
+            "source": "https://de.wikipedia.org/wiki/Lahn"
+        },
+        {
+            "name": "Limpopo",
+            "description": "Limpopo",
+            "source": "https://de.wikipedia.org/wiki/Limpopo"
+        },
+        {
+            "name": "Lena",
+            "description": "Lena",
+            "source": "https://de.wikipedia.org/wiki/Lena"
+        }
+    ],
+    "m": [
+        {
+            "name": "Mosel",
+            "description": "Mosel",
+            "source": "https://de.wikipedia.org/wiki/Mosel"
+        },
+        {
+            "name": "Mies",
+            "description": "Mies",
+            "source": "https://de.wikipedia.org/wiki/Mies"
+        },
+        {
+            "name": "Mulde",
+            "description": "Mulde",
+            "source": "https://de.wikipedia.org/wiki/Mulde"
+        },
+        {
+            "name": "Mississippi",
+            "description": "Mississippi",
+            "source": "https://de.wikipedia.org/wiki/Mississippi"
+        },
+        {
+            "name": "Maas",
+            "description": "Maas",
+            "source": "https://de.wikipedia.org/wiki/Maas"
+        }
+    ],
+    "n": [
+        {
+            "name": "Neckar",
+            "description": "Neckar",
+            "source": "https://de.wikipedia.org/wiki/Neckar"
+        },
+        {
+            "name": "Nahe",
+            "description": "Nahe",
+            "source": "https://de.wikipedia.org/wiki/Nahe"
+        },
+        {
+            "name": "Nagold",
+            "description": "Nagold",
+            "source": "https://de.wikipedia.org/wiki/Nagold"
+        },
+        {
+            "name": "Nil",
+            "description": "Nil",
+            "source": "https://de.wikipedia.org/wiki/Nil"
+        },
+        {
+            "name": "Nelson",
+            "description": "Nelson",
+            "source": "https://de.wikipedia.org/wiki/Nelson"
+        }
+    ],
+    "o": [
+        {
+            "name": "Oder",
+            "description": "Oder",
+            "source": "https://de.wikipedia.org/wiki/Oder"
+        },
+        {
+            "name": "Oker",
+            "description": "Oker",
+            "source": "https://de.wikipedia.org/wiki/Oker"
+        },
+        {
+            "name": "Orinoco",
+            "description": "Orinoco",
+            "source": "https://de.wikipedia.org/wiki/Orinoco"
+        },
+        {
+            "name": "Olenjok",
+            "description": "Olenjok",
+            "source": "https://de.wikipedia.org/wiki/Olenjok"
+        }
+    ],
+    "p": [
+        {
+            "name": "Pader",
+            "description": "Pader",
+            "source": "https://de.wikipedia.org/wiki/Pader"
+        },
+        {
+            "name": "Peene",
+            "description": "Peene",
+            "source": "https://de.wikipedia.org/wiki/Peene"
+        },
+        {
+            "name": "Pr\u00fcm",
+            "description": "Pr\u00fcm",
+            "source": "https://de.wikipedia.org/wiki/Pr%C3%BCm"
+        },
+        {
+            "name": "Po",
+            "description": "Po",
+            "source": "https://de.wikipedia.org/wiki/Po"
+        },
+        {
+            "name": "Pandsch",
+            "description": "Pandsch",
+            "source": "https://de.wikipedia.org/wiki/Pandsch"
+        }
+    ],
+    "q": [
+        {
+            "name": "Quintia",
+            "description": "Quintia",
+            "source": "https://de.wikipedia.org/wiki/Quintianus"
+        },
+        {
+            "name": "Quella",
+            "description": "Quella",
+            "source": "https://de.wikipedia.org/wiki/Quella_villa_accanto_al_cimitero"
+        },
+        {
+            "name": "Quintinus",
+            "description": "Quintinus",
+            "source": "https://de.wikipedia.org/wiki/Quintinus"
+        },
+        {
+            "name": "Quentin",
+            "description": "Quentin",
+            "source": "https://de.wikipedia.org/wiki/Quentin"
+        }
+    ],
+    "r": [
+        {
+            "name": "Rhein",
+            "description": "Rhein",
+            "source": "https://de.wikipedia.org/wiki/Rhein"
+        },
+        {
+            "name": "Ruhr",
+            "description": "Ruhr",
+            "source": "https://de.wikipedia.org/wiki/Ruhr"
+        },
+        {
+            "name": "Rur",
+            "description": "Rur",
+            "source": "https://de.wikipedia.org/wiki/Rur"
+        },
+        {
+            "name": "Rio",
+            "description": "Rio",
+            "source": "https://de.wikipedia.org/wiki/Rio"
+        },
+        {
+            "name": "Rhone",
+            "description": "Rhone",
+            "source": "https://de.wikipedia.org/wiki/Rhone"
+        }
+    ],
+    "s": [
+        {
+            "name": "Sieg",
+            "description": "Sieg",
+            "source": "https://de.wikipedia.org/wiki/Sieg"
+        },
+        {
+            "name": "Spree",
+            "description": "Spree",
+            "source": "https://de.wikipedia.org/wiki/Spree"
+        },
+        {
+            "name": "Schwentine",
+            "description": "Schwentine",
+            "source": "https://de.wikipedia.org/wiki/Schwentine"
+        },
+        {
+            "name": "Seine",
+            "description": "Seine",
+            "source": "https://de.wikipedia.org/wiki/Seine"
+        },
+        {
+            "name": "Sambesi",
+            "description": "Sambesi",
+            "source": "https://de.wikipedia.org/wiki/Sambesi"
+        }
+    ],
+    "t": [
+        {
+            "name": "Trave",
+            "description": "Trave",
+            "source": "https://de.wikipedia.org/wiki/Trave"
+        },
+        {
+            "name": "Tauber",
+            "description": "Tauber",
+            "source": "https://de.wikipedia.org/wiki/Tauber"
+        },
+        {
+            "name": "Themse",
+            "description": "Themse",
+            "source": "https://de.wikipedia.org/wiki/Themse"
+        },
+        {
+            "name": "Tiber",
+            "description": "Tiber",
+            "source": "https://de.wikipedia.org/wiki/Tiber"
+        },
+        {
+            "name": "Tura",
+            "description": "Tura",
+            "source": "https://de.wikipedia.org/wiki/Tura"
+        }
+    ],
+    "u": [
+        {
+            "name": "Urft",
+            "description": "Urft",
+            "source": "https://de.wikipedia.org/wiki/Urft"
+        },
+        {
+            "name": "Unstrut",
+            "description": "Unstrut",
+            "source": "https://de.wikipedia.org/wiki/Unstrut"
+        },
+        {
+            "name": "Ural",
+            "description": "Ural",
+            "source": "https://de.wikipedia.org/wiki/Ural"
+        },
+        {
+            "name": "Unscha",
+            "description": "Unscha",
+            "source": "https://de.wikipedia.org/wiki/Unscha"
+        },
+        {
+            "name": "Ubangi",
+            "description": "Ubangi",
+            "source": "https://de.wikipedia.org/wiki/Ubangi"
+        }
+    ],
+    "v": [
+        {
+            "name": "Vechte",
+            "description": "Vechte",
+            "source": "https://de.wikipedia.org/wiki/Vechte"
+        },
+        {
+            "name": "Vils",
+            "description": "Vils",
+            "source": "https://de.wikipedia.org/wiki/Vils"
+        },
+        {
+            "name": "Vaal",
+            "description": "Vaal",
+            "source": "https://de.wikipedia.org/wiki/Vaal"
+        },
+        {
+            "name": "Volta",
+            "description": "Volta",
+            "source": "https://de.wikipedia.org/wiki/Volta"
+        }
+    ],
+    "w": [
+        {
+            "name": "Weser",
+            "description": "Weser",
+            "source": "https://de.wikipedia.org/wiki/Weser"
+        },
+        {
+            "name": "Werra",
+            "description": "Werra",
+            "source": "https://de.wikipedia.org/wiki/Werra"
+        },
+        {
+            "name": "Wupper",
+            "description": "Wupper",
+            "source": "https://de.wikipedia.org/wiki/Wupper"
+        },
+        {
+            "name": "Weichsel",
+            "description": "Weichsel",
+            "source": "https://de.wikipedia.org/wiki/Weichsel"
+        },
+        {
+            "name": "Wolga Russland",
+            "description": "Wolga Russland",
+            "source": "Not found"
+        }
+    ],
+    "x": [
+        {
+            "name": "Xanthippe",
+            "description": "Xanthippe",
+            "source": "https://de.wikipedia.org/wiki/Xanthippe"
+        },
+        {
+            "name": "Xenia",
+            "description": "Xenia",
+            "source": "https://de.wikipedia.org/wiki/Xenia"
+        },
+        {
+            "name": "Xaver",
+            "description": "Xaver",
+            "source": "https://de.wikipedia.org/wiki/Xaver"
+        },
+        {
+            "name": "Xerxes",
+            "description": "Xerxes",
+            "source": "https://de.wikipedia.org/wiki/Xerxes"
+        }
+    ],
+    "y": [
+        {
+            "name": "Yser",
+            "description": "Yser",
+            "source": "https://de.wikipedia.org/wiki/Yser"
+        },
+        {
+            "name": "Yonne",
+            "description": "Yonne",
+            "source": "https://de.wikipedia.org/wiki/Yonne"
+        },
+        {
+            "name": "Ybbs",
+            "description": "Ybbs",
+            "source": "https://de.wikipedia.org/wiki/Ybbs"
+        },
+        {
+            "name": "Yellowstone",
+            "description": "Yellowstone",
+            "source": "https://de.wikipedia.org/wiki/Yellowstone"
+        }
+    ],
+    "z": [
+        {
+            "name": "Zschopau",
+            "description": "Zschopau",
+            "source": "https://de.wikipedia.org/wiki/Zschopau"
+        },
+        {
+            "name": "Zusam",
+            "description": "Zusam",
+            "source": "https://de.wikipedia.org/wiki/Zusam"
+        },
+        {
+            "name": "Zihl",
+            "description": "Zihl",
+            "source": "https://de.wikipedia.org/wiki/Zihl"
+        }
+    ]
+}

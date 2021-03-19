@@ -1,2 +1,4 @@
 town=>city
 stadt=>city
+village=>city
+fluss=>city

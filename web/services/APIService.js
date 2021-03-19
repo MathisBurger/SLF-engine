@@ -15,5 +15,4 @@ export async function parseSynonym(category) {
         mode: 'cors'
     });
     return await res.json();
-
 }
