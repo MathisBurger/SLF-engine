@@ -1,6 +1,9 @@
 import React from 'react';
 import style from "../styles/Home.module.css";
 
+
+// The TableComponent renders the data table if
+// data is given and render is set to true
 export default function TableComponent(props) {
     if (props.render) {
         let list = [];

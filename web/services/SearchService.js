@@ -1,5 +1,8 @@
 import {fetchData, parseSynonym} from "./APIService";
 
+// main search function
+// It handles the text length and
+// data fetching
 export async function search(text) {
     let split = text.split(" ");
     if (split.length === 2) {
@@ -11,6 +14,7 @@ export async function search(text) {
     }
 }
 
+// handles category and synonym parsing
 async function getData(category, letter) {
     let data = await fetchData(category, letter);
     if (!data.status) {

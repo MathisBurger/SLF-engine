@@ -5,11 +5,15 @@ import style from '../styles/Home.module.css';
 import {useState} from 'react';
 import {search} from "../services/SearchService";
 
+
+// main page
 export default function Home() {
 
+  // initializing useState handler
   const [text, changeText] = useState("");
   const [renderTable, changeRenderTable] = useState(false);
   const [tableData, changeTableData] = useState([]);
+
 
   return (
     <div>
@@ -26,6 +30,9 @@ export default function Home() {
   )
 }
 
+// This function is called on Enter press
+// It searches for available data and
+// displays it.
 async function onSubmit(event, text, renderChanger, contentChanger) {
     if (event.key === 'Enter') {
         let data = await search(text);
